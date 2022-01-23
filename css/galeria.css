@@ -1,0 +1,34 @@
+.galeria{
+    margin-top: 10px;
+}
+
+.galeria-pai{
+    margin-top: 40px;
+}
+
+
+body{
+    background-image: url(../img/chuva.jpeg);
+}
+
+
+.galeria img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 10px;
+    opacity: 0.8;
+}
+
+.galeria img:hover{
+    opacity: 1.0;
+    padding: 5px;
+    transition: opacity 1s;   
+    transition: padding 0.5s;   
+}
+
+footer{
+    margin-top: 100px;
+}
+           
+        

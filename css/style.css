@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+}    
+
+#banner{
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    display: flex;
+    /*justify-content: center;
+    align-items: center;*/
+}
+
+#banner video{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 900px;
+}
+
+#banner .container{
+    z-index: 1;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+.links{
+    color: yellow;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+
+.links:hover{
+    color: white;
+}
+
+.nome{
+    margin-top: 180px;
+    font-size: 70px;
+    color:  rgba(255, 255, 255, 0.775);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 140px;
+    font-family: 'Caveat', cursive;
+}
+
+.icone{
+    color: white;
+    margin-left: 10px;
+}
+
+
+.icone:hover{
+    color: rgb(157, 58, 58);
+    transition: color 0.5s;
+}
+
+
+.seta{
+    margin-top: 180px;
+    color: white;
+}
+
+
+#background img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#background h1{
+    color: rgba(255,255,255, 0.4);
+    font-family: 'Caveat', cursive;
+}
+#pai-do-pai{
+    /*background-image: linear-gradient(#333, #222);*/
+    color: white;
+    font-family: sans-serif;
+    background-color: #333;
+    
+        
+}
+
+#background{
+    margin-top: 100px;
+}
+
+
+.card{
+    margin-top: 10px;
+    color: white;
+    background-image: linear-gradient(#333, black);
+    text-transform: uppercase;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.card button{
+    background-color: whitesmoke;
+    padding: 5px;
+    border: none;
+}
+
+.card-deck{
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+footer{
+    line-height: 100px;
+    height: 100px;
+    background-color: #333;
+   /* text-align: center;*/
+    
+}
+
+.card button{
+    background-image: linear-gradient(purple, yellow);
+    padding: 10px;
+}
+
+.textos button{
+    padding: 10px;
+    text-transform: uppercase;
+
+}
+
+.textos button:hover{
+    background-color: rgb(157, 58, 58);
+    transition: background 0.5s;  
+    
+
+
+}
+
+.textos{
+    width: 400px;
+    margin-left: 450px;
+}
