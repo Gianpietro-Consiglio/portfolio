@@ -1,0 +1,16 @@
+#noticias{
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(85, 79, 79));
+    width: 700px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+
+}
+
+#noticias p, h1{
+    color: whitesmoke;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 220px;
+}
