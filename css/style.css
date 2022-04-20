@@ -172,18 +172,18 @@ background-color: blue;
 
 
 .curriculo{
-    background-image: linear-gradient(rgb(184, 153, 153), rgb(165, 143, 147)) ;
-    margin-left: 325px;
+    background-color: black;
+    margin-left: 265px;
     margin-top: 50px;
     padding: 10px;
-    color:aliceblue;
+    color:whitesmoke;
     border-radius: 5px 5px 5px 5px;
     border-style: none;
 }
 
 .curriculo:hover{
-    padding: 30px;
-    transition: 1s;
+    padding: 15px;
+    transition: 0.5s;
 }
 
 .peru{
@@ -194,4 +194,19 @@ background-color: blue;
 .peru:hover{
     color: rgb(139, 209, 139);
     transition: 0.3s;
+}
+
+
+.linkedin{
+    background-color: black;
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 5px 5px 5px 5px;
+    border-style: none;
+
+}
+
+.linkedin:hover{
+    padding: 15px;
+    transition: 0.5s;
 }
