@@ -25,12 +25,17 @@ body{
     z-index: 1;
 }
 
+
 nav ul li{
     display: inline-block;
     margin-left: 20px;
 }
 
-
+header{
+    position: absolute;
+    margin-left: -300px;
+    margin-top: 100px;
+}
 
 .links{
     color: yellow;

@@ -3,12 +3,13 @@
 }
 
 .galeria-pai{
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 
 body{
     background-image: url(../img/chuva.jpeg);
+    height: 700px;
 }
 
 
@@ -30,5 +31,35 @@ body{
 footer{
     margin-top: 100px;
 }
+
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header{
+    position: absolute;
+    margin: left;
+}
+
+.links{
+    color: yellow;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+
+.links:hover{
+    color: white;
+}
            
-        
+.icone{
+    color: white;
+    margin-left: 10px;
+}
+
+
+.icone:hover{
+    color: rgb(157, 58, 58);
+    transition: color 0.5s;
+}   
